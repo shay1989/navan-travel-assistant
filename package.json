@@ -1,0 +1,23 @@
+{
+  "name": "navan-travel-assistant",
+  "version": "1.0.0",
+  "description": "Navan Travel Assistant Home Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/server.test.js",
+    "chat": "node chat.js"
+  },
+  "keywords": [],
+  "author": "shayalt1@gmail.com",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
