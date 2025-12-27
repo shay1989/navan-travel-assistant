@@ -8,6 +8,16 @@ A conversational travel planning assistant. Home Assignemt
 npm install
 ```
 
+## Setup
+
+Create a `.env` file from the example:
+
+```bash
+cp .env.example .env
+```
+
+Add your API token (provided in a separate email link) to the `.env` file.
+
 ## Run Server
 
 ```bash
